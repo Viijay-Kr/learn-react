@@ -1,6 +1,8 @@
 {
   "name": "learn-react",
   "displayName": "React Docs",
+  "author": "Viijay-Kr",
+  "publisher": "viijay-kr",
   "description": "Learn React JS inside VS Code while building your react projects with quick access to https://www.react.dev documentation. Browse the docs quickly inside VS Code webviews",
   "keywords": [
     "React docs",
