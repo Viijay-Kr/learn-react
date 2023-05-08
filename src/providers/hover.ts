@@ -36,7 +36,7 @@ export class HoverProvider implements vscode.HoverProvider {
               (u) =>
                 `* [${
                   u.title
-                }](command:learn-react.view-resource?${encodeURIComponent(
+                }](command:react-docs.view-resource?${encodeURIComponent(
                   JSON.stringify({
                     link: u.href,
                     name: `${resource.name} | ${u.title}`,
@@ -47,7 +47,7 @@ export class HoverProvider implements vscode.HoverProvider {
         );
 
         mdString.appendMarkdown(
-          `[Learn More](${link}) | [View](command:learn-react.view-resource?${encodeURIComponent(
+          `[Learn More](${link}) | [View](command:react-docs.view-resource?${encodeURIComponent(
             JSON.stringify({ link, name })
           )})\n\n`
         );

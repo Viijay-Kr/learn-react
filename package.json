@@ -1,8 +1,11 @@
 {
-  "name": "learn-react",
+  "name": "react-docs",
   "displayName": "React Docs",
   "author": "Viijay-Kr",
   "publisher": "viijay-kr",
+  "repository": {
+    "url": "https://github.com/Viijay-Kr/learn-react"
+  },
   "description": "Learn React JS inside VS Code while building your react projects with quick access to https://www.react.dev documentation. Browse the docs quickly inside VS Code webviews",
   "keywords": [
     "React docs",
@@ -28,8 +31,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "learn-react.view-resource",
-        "title": "Learn React: View Resource at position"
+        "command": "react-docs.view-resource",
+        "title": "React Docs: View Resource at position"
       }
     ]
   },

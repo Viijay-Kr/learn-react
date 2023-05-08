@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 export function registerWebView() {
   return vscode.commands.registerCommand(
-    "learn-react.view-resource",
+    "react-docs.view-resource",
     (...args) => {
       // Create and show a new webview
       const editor = vscode.window.activeTextEditor;
