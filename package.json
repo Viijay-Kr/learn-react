@@ -12,10 +12,11 @@
     "React dev docs in VS Code",
     "React"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.77.0"
   },
+  "icon": "assets/icon.png",
   "license": "MIT",
   "categories": [
     "Education",
