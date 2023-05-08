@@ -13,10 +13,5 @@ jobs:
       VSCE_PAT: ${{ secrets.VSCE_PAT }}
     steps:
       - uses: actions/checkout@v3
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-      - run: npm install -g pnpm
-      - run: pnpm install
-      - run: pnpm run deploy
+      - run: npm install
+      - run: npm run deploy
