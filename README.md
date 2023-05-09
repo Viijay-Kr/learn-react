@@ -11,6 +11,8 @@ The `React Dev Docs` extension for Visual Studio Code allows you to quickly acce
 - Easily navigate the React documentation in a webview without leaving the editor.
 - Get help with using React hooks, including examples and best practices.
 
+> [Demo](https://twitter.com/reactporiyalar/status/1655679330192588814?s=20)
+
 ## Installation
 
 To install the `React Dev Docs` extension, follow these steps:
