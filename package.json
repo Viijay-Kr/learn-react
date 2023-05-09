@@ -12,7 +12,7 @@
     "React dev docs in VS Code",
     "React"
   ],
-  "version": "0.0.3",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -63,6 +63,7 @@
     "jsdom": "^22.0.0",
     "mocha": "^10.2.0",
     "node-fetch": "^2.6.7",
+    "prettier": "^2.8.8",
     "typescript": "^4.9.5",
     "vsce": "^2.15.0"
   }

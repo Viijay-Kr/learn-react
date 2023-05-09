@@ -20,13 +20,11 @@ export class HoverProvider implements vscode.HoverProvider {
       if (resource) {
         const { example, usage, description, name, link } = resource;
         const mdString = new vscode.MarkdownString(
-          `**React Dev Docs** - \`hooks/${name}\`\n\n`
+          `**React Dev Docs** - \`${resource.type}/${name}\`\n\n`
         );
         mdString.isTrusted = true;
         mdString.supportHtml = true;
-        mdString.appendMarkdown(
-          `**${name}**\n\n${description}\n\n**Example**\n`
-        );
+        mdString.appendMarkdown(`\`${description}\`\n\n`);
 
         mdString.appendCodeblock(example.code, "typescript");
 
