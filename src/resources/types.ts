@@ -1,3 +1,6 @@
+import apis from "./apis";
+import components from "./components";
+import domApis from "./dom-apis";
 import hooks from "./hooks";
 
 export interface IResource {
@@ -13,10 +16,9 @@ export interface IResource {
   link: string;
 }
 
-export type Components = unknown;
-
-export type Apis = unknown;
-
 export type Hooks = (typeof hooks)[number];
+export type Components = (typeof components)[number];
+export type Apis = (typeof apis)[number];
+export type DomApis = (typeof domApis)[number];
 
-export type Resources = Hooks;
+export type Resources = Hooks | Components | Apis | DomApis;
